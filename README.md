@@ -197,7 +197,7 @@ d.disp()
 ![image](https://github.com/user-attachments/assets/2ce25408-cc86-4000-858b-1ea033403fe7)
 
 ### Result: Thus, the given program is implemented and executed successfully .
-# Ex No: SEB - Class Implementation 
+# Ex No:5.5 SEB - Class Implementation 
 ### Aim:
 To write a Python program to implement a class `Dress` with a parameterized constructor that accepts the cloth, cloth-type, and quantity, and then prints the details.
 
