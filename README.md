@@ -197,3 +197,42 @@ d.disp()
 ![image](https://github.com/user-attachments/assets/2ce25408-cc86-4000-858b-1ea033403fe7)
 
 ### Result: Thus, the given program is implemented and executed successfully .
+# Ex No: SEB - Class Implementation 
+# README
+
+### Aim:
+To write a Python program to implement a class `Dress` with a parameterized constructor that accepts the cloth, cloth-type, and quantity, and then prints the details.
+
+### Algorithm:
+
+**STEP 1:** Start.  
+**STEP 2:** Define a class `Dress`.  
+**STEP 3:** Create a constructor `__init__` that takes three parameters: cloth, cloth-type, and quantity.  
+**STEP 4:** Assign these parameters to instance variables.  
+**STEP 5:** Define a method `disp()` to print the dress details in the format: quantity cloth-type cloth(s).  
+**STEP 6:** Accept user inputs for cloth, cloth-type, and quantity.  
+**STEP 7:** Create an object of class `Dress` using these inputs and call the `disp()` method.  
+**STEP 8:** Stop.
+
+### Program:
+```python
+class Dress:
+    def __init__(self, a, b, c):
+        self.a = a
+        self.b = b
+        self.c = c
+
+    def disp(self):
+        print(f"{self.c} {self.b} {self.a}(s)")
+
+a = input()
+b = input()
+c = int(input())
+d = Dress(a, b, c)
+d.disp()
+```
+### Output:
+![image](https://github.com/user-attachments/assets/c409b86d-7764-46fb-87e6-3b5df462e1a5)
+### Result:
+Thus the program was executed successfully.
+
